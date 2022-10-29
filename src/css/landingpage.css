@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,html{
+  
+    height: 100%;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+   
+}
+
+.col-md-6{
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0rem;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    background-color: rgb(0 0 0 / 60%);
+    backdrop-filter: blur(10px);
+    border-radius: 9px;
+}
+.Egg{
+    width: 60px;
+    cursor: pointer;
+}
+.col-md-6 img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.col-md-6 h2{
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.col-md-6 h3{
+    color: #0ca594;
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.col-md-6 button{
+    border: 0;
+    border-radius: 24px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 100%;
+    background: #000000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+}
+
+.col-md-6 button:hover{
+    background: #079E98;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+@media (max-width:576px)
+{
+    .col-6 button{
+        font-size: 18px;
+    }
+
+}
+
+.popup-content{
+    background: #000000e3 !important;
+    backdrop-filter: blur(12px) !important;
+    height: 75% !important;
+    width: 30% !important;
+    padding: 5rem 2rem !important;
+    border: none !important;
+    text-align: center;
+    margin-top: -50px !important;
+    position: absolute !important;
+    z-index: 999 !important;
+    pointer-events: auto !important;
+    top: 50% !important;
+    transform: translate(-50%, -35%) !important;
+    left: 50% !important;
+}
+.logins button{
+    display: flex;
+    border-radius: 10px;
+    padding: 8px 2rem;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 9rem; */
+    cursor: pointer;
+}
+.email_input{
+    text-align: center;
+    padding-top: 5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    animation: zoomin 300ms ease-in-out forwards;
+}
+@keyframes zoomin {
+    0%{
+        transform: scale(0.75);
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+.email_input h1 {
+    font-size: 16px;
+    width: fit-content;
+    color: white;
+}
+.email_input input {
+    width: 100%; 
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    background: white;
+    border: none;
+
+}
+.email_input button{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    background: #079E98;
+    color: #fff;
+    font-weight: 400;
+    /* margin-top: 10px; */
+    border-radius: 10px;
+    font-weight: 500;
+    /* width: 130px; */
+    width: 50%;
+    padding: 0.5rem 0rem;
+    /* height: 40px; */
+    font-size: 1rem;
+    
+}
+.email_input button:hover{ 
+    cursor: pointer;
+    background: #056562;
+ transition: 300ms ease-in-out;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

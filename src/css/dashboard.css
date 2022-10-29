@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,
+html {
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgb(7 22 30 / 46%) ),url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+a {
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+.icon a:hover{
+    color: #11dcd4;
+    transform: scale(1.25);
+    transition: 300ms ease-in-out;
+}
+.col-md-3 {
+    text-align: center;
+
+
+}
+
+.col-md-3 img {
+    width: 50px;
+
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+
+.col-md-3 .top-header {
+    list-style: none;
+    padding-top: -10px;
+    text-align: center;
+    padding-left: 0;
+
+    padding-right: 0;
+    margin-top: 120px;
+}
+
+.icon {
+    list-style: none;
+    margin: 1px;
+    gap: 10px;
+}
+
+.icon a {
+    list-style: none;
+    margin: 5px;
+ 
+}
+
+.col-md-3 .top-header li {
+    padding-top: 20px;
+}
+
+.col-md-3 .middle-header {
+    height: 120px;
+
+
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .middle-header li {
+    padding-top: 40px;
+}
+
+.col-md-3 .exitdash {
+    list-style: none;
+
+    margin-bottom: 200px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .exitdash li {
+    padding-top: 20px;
+}
+
+.col-md-9 {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header h3 {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header h3::after {
+    display: block;
+    
+}
+
+.header .bg-rounded {
+    width: 55px;
+    height: 55px;
+  
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.header .bg-rounded .vector {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+.header .bg-rounded .bell {
+    cursor: pointer;
+    width: 90%;
+    height: 90%;
+    padding-left: 7px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.header .bg-block {
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    opacity: 0.3;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.header .name-addr {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.header .name-addr h6 {
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.header .name-addr h6::after {
+    color: #fff;
+    display: block;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clear: both;
+    font-weight: normal;
+
+}
+
+.hrz-separator {
+    border-bottom: 1px solid #C156C2;
+    display: block;
+    transform: rotate(0.22deg);
+    margin-top: 10px;
+}
+
+.content {
+    height: 340px;
+    width: 80%;
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(35, 35, 35, 0.9);
+
+}
+
+.content .main-heading {
+    color: #fff;
+    margin: 0 auto;
+}
+
+.content .main-heading h1 {
+    padding-top: 50px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.content .input-text input {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    outline: none;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(83, 86, 251, 0.16);
+    background-image: url("../images/lock.png");
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+.content .input-text input::placeholder {
+    color: #000;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.content button {
+    display: block;
+    outline: none;
+    border: none;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background: #000;
+    background: linear-gradient(134.38deg, #F539F8 0%,
+            #C342F9 43.55%, #5356FB 104.51%);
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.content button:hover {
+    background: linear-gradient(134.38deg, #5356FB 0%, #C342F9 43.55%,
+            #F539F8 104.51%);
+}
+
+.col-sm-6 {
+    height: 400px;
+    background: rgba(35, 35, 35, 0.9);
+    margin: 0 auto;
+
+}
+
+.col-sm-6 h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 90px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+.col-sm-6 h4 {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:576px) {
+    .col-md-3 {
+        height: auto;
+    }
+
+    .header h3 {
+        padding-left: 0px;
+        font-size: 13px;
+    }
+
+    .header .bg-rounded {
+        border-radius: 30px;
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header .bg-rounded .vector {
+        padding-top: 9px;
+        padding-left: 9px;
+        width: 20px;
+    }
+
+    .header .bg-rounded .bell {
+        padding-left: 12px;
+        width: 17px;
+    }
+
+    .header .bg-block {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px
+    }
+
+    .col-sm-6 {
+        margin-top: 0px;
+        width: 70%;
+    }
+
+    .content button {
+        margin-top: 20px;
+    }
+
+    .content .main-heading h1 {
+        font-size: 28px;
+    }
+
+    .content .input-text input {
+        width: 90%;
+    }
+
+    .content .input-text button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .col-sm-6 h1 {
+        font-size: 28px;
+    }
+
+    .col-sm-6 h4 {
+        font-size: 20px;
+    }
+}

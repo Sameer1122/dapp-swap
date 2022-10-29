@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,
+html {
+    height: 100%;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.row {
+    height: 100vh;
+}
+
+a {
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.col-md-3 {}
+
+.col-md-3 img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.col-md-3 .top-header {
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .top-header li {
+    padding-top: 20px;
+}
+
+.col-md-3 .middle-header {
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .middle-header li {
+    padding-top: 20px;
+}
+
+.col-md-3 .exitdash {
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .exitdash li {
+    padding-top: 20px;
+}
+
+.col-md-9 {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header h3 {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header h3::after {
+    display: block;
+
+}
+
+.header .bg-rounded {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.header .bg-rounded .vector {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+.header .bg-rounded .bell {
+    cursor: pointer;
+    width: 90%;
+    height: 90%;
+    padding-left: 7px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.header .bg-block {
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    opacity: 0.3;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.header .name-addr {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.header .name-addr h6 {
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.header .name-addr h6::after {
+    color: #fff;
+    display: block;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clear: both;
+    font-weight: normal;
+
+}
+
+.hrz-separator {
+    border-bottom: 1px solid #C156C2;
+    display: block;
+    transform: rotate(0.22deg);
+    margin-top: 10px;
+}
+
+.content {
+    height: 370px;
+    width: 80%;
+    display: flex;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgba(35, 35, 35, 0.9);
+
+}
+
+.content .main-heading {
+    color: #fff;
+    margin: 10px auto;
+}
+
+.content .main-heading h1 {
+    padding-top: 30px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.content .main-heading h6 {
+    margin: 20px auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    .col-md-3 {
+        height: auto;
+    }
+
+    .header h3 {
+        padding-left: 0px;
+        font-size: 13px;
+    }
+
+    .header .bg-rounded {
+        border-radius: 30px;
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header .bg-rounded .vector {
+        padding-top: 9px;
+        padding-left: 9px;
+        width: 20px;
+    }
+
+    .header .bg-rounded .bell {
+        padding-left: 12px;
+        width: 17px;
+    }
+
+    .header .bg-block {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px
+    }
+
+    .content .main-heading h1 {
+        font-size: 28px;
+    }
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.old_redeems {
+    background-color: rgb(0 0 0 / 60%) !important;
+    width: 90% !important;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    padding: 0 !important;
+    border-radius: 16px !important;
+    margin: auto 0 !important;
+}
+.old_redeems h1 {
+    color: white;
+}
+.show_hide_button {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.show-button {
+    outline: none;
+    border: none;
+   cursor: pointer;
+    height: inherit;
+ 
+    width: 25%;
+    border-radius: 30px;
+    color: #fff;
+    background: #079E98;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.show-button:hover {
+        transition: 300ms ease-in-out;
+        background:#055f5c;
+        transform: scale(1.1);
+}

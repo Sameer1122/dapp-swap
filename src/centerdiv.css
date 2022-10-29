@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,html{
+    height: 100%;
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container{
+    min-height:100%;
+}
+
+.row{
+    min-height: 100%;
+}
+.col-md-6{
+    
+    height: 500px;
+    background-color: blue;
+    background-color: rgba(43, 34, 49,0.8);
+    border-radius: 9px;
+}
+
+.col-md-6 img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.col-md-6 h2{
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.col-md-6 h3{
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.col-md-6 button{
+    border: 0;
+    border-radius: 48px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    height:90px;
+    background-color: #9b59b6;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Ubuntu,Arial, Helvetica, sans-serif;
+}
+
+.col-md-6 button:hover{
+    background-color: #8e44ad;
+    cursor: pointer;
+}
+
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+@media (max-width:576px)
+{
+    .col-6 button{
+        font-size: 18px;
+    }
+
+}
+

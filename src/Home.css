@@ -1,0 +1,57 @@
+.landingpage-container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.landingpage-innerContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.button-div-landingPage{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.login_methods{
+width: 100% !important;
+height: 100% !important;
+animation: sclae-up 300ms ease-in-out forwards;
+}
+@keyframes sclae-up {
+    0%{
+        transform: scale(0.75);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.login_methods h3{
+    font-size: 16px;
+    margin-bottom: 5rem;
+    color: white;
+    font-weight: bold;
+    }
+.login_methods button{
+        
+color: white;
+    background-color:#153D4E ;
+ }
+ .login_methods button:hover{
+        
+    color: white;
+    transition: ease-in-out 300ms;
+        background-color:#0d2732 ;
+     }
+ .login_methods button > h2{
+        
+font-size: 16px;
+     }
+.logins{
+    width: 100% !important;
+}
+.popup-arrow{
+    display: none;
+} 
